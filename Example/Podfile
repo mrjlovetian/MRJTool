@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MRJTool_Example' do
+  pod 'MRJTool', :path => '../'
+
+  target 'MRJTool_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

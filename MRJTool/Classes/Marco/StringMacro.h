@@ -15,6 +15,6 @@
 #define MF_ObjString(obj) [NSString stringWithFormat:@"%@", obj]
 #define MF_IntString(obj) [NSString stringWithFormat:@"%ld", obj]
 #define MF_Replace(raw,f,r) [raw stringByReplacingOccurrencesOfString:f withString:r]
-#define MF_isStringNull(string) ((string == nil || string.length == 0 || [string isEqualToString:@"(null)"]) ? YES : NO)/
+#define MF_isStringNull(string) ((string == nil || string.length == 0 || [string isEqualToString:@"(null)"]) ? YES : NO)
 
 #endif /* StringMacro_h */

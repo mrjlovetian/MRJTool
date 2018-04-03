@@ -1,0 +1,6 @@
+framework module MRJTool {
+  umbrella header "MRJTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

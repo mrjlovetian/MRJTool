@@ -1,0 +1,6 @@
+framework module Pods_MRJTool_Example {
+  umbrella header "Pods-MRJTool_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -10,6 +10,7 @@
 #define StringMacro_h
 
 /// 字符串处理
+
 #define MF_Trim(x) [x stringByTrimmingCharactersInSet: [NSCharacterSet whitespaceCharacterSet]]
 #define MF_SWF(FORMAT, ...) [NSString stringWithFormat:FORMAT, __VA_ARGS__]
 #define MF_ObjString(obj) [NSString stringWithFormat:@"%@", obj]

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MRJTool'
-  s.version          = '0.1.2'
+  s.version          = '0.1.2.1'
   s.summary          = '自定义常用宏工具'
 
 # This description is used to generate tags and improve search results.

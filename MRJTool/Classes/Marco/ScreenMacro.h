@@ -17,7 +17,7 @@
 #define StatusBarHeight [[UIApplication sharedApplication] statusBarFrame].size.height
 #define VScaleRate (iPhone6Plus ? 1 : 2.0/3.0)
 #define VScaleRateWidth ScreenSzie / 320.0 //算宽度比率
-#define VScaleRateNewWidth SreenWidth / 375.0
+#define VScaleRateNewWidth SreenWidth / 375.0 //以6s为基准计算比例
 #define VScaleRateHeight SreenHeight / 736.0 //算高度比率
 #define VScaleRateNewHeight SreenHeight / 667 //算高度比率
 #define VGetX(x) x*VScaleRateHeight;

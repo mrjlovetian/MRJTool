@@ -9,7 +9,6 @@
 #ifndef PropetyMarco_h
 #define PropetyMarco_h
 
-
 #define MRJImage(imagename) [UIImage getImageByName:imagename]
 
 #define MRJWeakSelf(type)  __weak typeof(type) weak##type = type;
